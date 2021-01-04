@@ -1,8 +1,61 @@
-/* font-family: 'Open Sans', sans-serif; */
-h1 {
+nav {
+    height: 12em;
+}
+
+h1 {  
+  text-align: center;
+}
+
+.page-name {
+  align-items: center;
   font-family: 'Life Savers', serif;
+  font-size: 3em;
+  border: 0 auto;
+  padding: 1em;
 
 }
+
+.box {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-between;
+  position: relative;
+  height: 40%;
+  width: 80%;
+}
+
+.left-box {
+  background-color: #e6ecf4;
+  float: left;
+
+
+}
+
+.right-box {
+  float: right;
+}
+
+.ask-question {
+  padding: .6em;
+  margin: 1.5em;
+  font-size: 2em;
+}
+
+
+.get-answer {
+  text-decoration-color: #2b4e80;
+  padding: .6em;
+  margin: 1.5em;
+  font-size: 2em;
+}
+
+.eight-ball {
+  display: flex;
+  height: 20%;
+  width: 20%;
+  padding: 2em;
+}
+/* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Life Savers', serif; */
 
 /*
